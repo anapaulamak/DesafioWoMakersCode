@@ -1,0 +1,117 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  background-image: url(https://st2.depositphotos.com/5432438/10598/v/950/depositphotos_105989430-stock-illustration-monstera-seamless-pattern.jpg);
+  text-align: center;
+  padding: 5vh;
+  color: black;
+}
+
+header img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.borderBox{
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.20);
+  border: solid .1px #9c9c9c8a;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+h4{
+  text-align: left;  
+}
+
+ul{
+  padding-left: 0;
+}
+
+ul li{
+  list-style: none;
+  text-align: left;
+  padding-left: 0!important;
+}
+
+#contact ul{
+  display: flex;
+  flex-direction: row; 
+}
+#contact ul li{
+  margin-right: 5px;
+}
+
+progress, progress[role] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-size: auto;
+  height: 20px;
+  width: 90%;
+  border-radius: 15px;
+}
+
+.option1{
+  background-color: green;
+}
+
+.option2{
+  background-color: blue;
+}
+
+.option3{
+  background-color: yellow;
+}
+
+.option4{
+  background-color: red;
+}
+
+.d-flex{
+  display: block;
+}
+
+section{
+  display: flex; 
+}
+
+#section-left{
+  width: 30%;
+}
+
+#section-right{
+  width: 60%;
+}
+
+.subsection-right{
+  width: 49%;
+  display: inline-grid;
+}
+
+@media all and (max-device-width: 970px){
+  .subsection-right{
+    width: 95%;
+    display: inline-grid;
+  }
+}
+
+@media all and (max-device-width: 750px){
+  section{
+    display: block;
+  }
+
+  #section-left{
+    width: 95%;
+    margin: 2%;
+    box-sizing: border-box;
+  }
+  #section-right{
+    width: 95%;
+    margin: 2%;
+    box-sizing: border-box;
+  }
+}
+
